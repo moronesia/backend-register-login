@@ -1,0 +1,13 @@
+GET http://localhost:5001/register
+
+
+###
+
+POST http://localhost:5001/register
+Content-Type: application/json
+
+{
+    "name" : "Anjasmoro",
+    "email" : "anjas@gmail.com",
+    "password" : "12345"
+}
